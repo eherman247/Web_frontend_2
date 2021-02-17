@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/todo.css">
+</head>
+<body>
+    <header>
+        <ol></ol>
+    </header>
+    <main>
+        <h1>To Do</h1>
+        <section>
+            <ul id="todolist"></ul>
+        </section>
+        <section>
+            <form>
+                <div>
+                    <button id="all">All</button>
+                    <button id="open">Open</button>
+                    <button id="completed">Completed</button>
+                </div>
+                
+            </form>
+        </section>
+        <section>
+            <form>
+                <div>
+                    <input type="text" id="content" name="content" placeholder="to do">
+                    <button id="task">+</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <script src="scripts/todos.js" type="module"></script>
+</body>
+</html>
